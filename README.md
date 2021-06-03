@@ -43,6 +43,8 @@ mv /data/data/com.termux/files/home/AndroRAat -t /data/data/com.termux/files/hom
 pip3 install -r requirements.txt
 ```
 #### Note: 
+## Download MixPlorer App and Sign apk with it. (Most Important)
+## Without it your RAT will show error of (App Not Installed) So, First Sign apk with Mixplorer App
 While cloning the repository using Git bash on windows, you may get the following error:
 > error: unable to create file \<filename>: Filename too long
 
