@@ -1,5 +1,6 @@
 **Disclaimer** : This software is meant for educational purposes only. I don't feel responsible for any malicious use of the app.
 # AndroRAT forked For Termux all Bugs and errors are fixed by me also added Android 10 support
+# Special Thanks To @Mayankgaj
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FullPenetrationTesting?label=Follow&style=social)](https://twitter.com/karma9874)
