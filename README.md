@@ -28,7 +28,7 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 ## Prerequisites
 AndroRAT requires Python (3.6-3.8) and JAVA 8 (or Android Studio)
 
-## Installation
+## Installation in Termux
 
 ```
 
